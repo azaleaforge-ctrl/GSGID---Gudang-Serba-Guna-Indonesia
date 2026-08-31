@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans, Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { buildMetadata } from "@/lib/seo";
+import { organizationJsonLd, websiteJsonLd } from "@/lib/jsonld";
 import { LenisProvider } from "@/components/ui/LenisProvider";
 
 const jakarta = Plus_Jakarta_Sans({
@@ -31,6 +32,8 @@ export const viewport: Viewport = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const orgLd = organizationJsonLd();
+  const siteLd = websiteJsonLd();
   return (
     <html
       lang="id"
@@ -38,6 +41,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-[var(--lobby-bg)] text-[var(--lobby-fg)]">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteLd) }}
+        />
         <LenisProvider>{children}</LenisProvider>
       </body>
     </html>

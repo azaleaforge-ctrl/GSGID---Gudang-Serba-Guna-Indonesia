@@ -19,7 +19,7 @@ export const metadata: Metadata = buildMetadata({
     siteName: siteConfig.name,
     locale: "id_ID",
     type: "website",
-    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Lorong DEV, GSG ID" }],
+    images: [{ url: `${siteConfig.url}/opengraph-image`, width: 1200, height: 630, alt: "Lorong DEV, GSG ID", type: "image/png" }],
   },
 });
 
