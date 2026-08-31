@@ -28,7 +28,6 @@
     "eslint-config-next": "15.4.5",
     "prettier": "^3.9.6",
     "tailwindcss": "^4",
-    "typescript": "^5",
-    "wrangler": "^4.127.1"
+    "typescript": "^5"
   }
 }
