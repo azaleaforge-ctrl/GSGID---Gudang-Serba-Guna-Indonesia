@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
   openGraph: {
     title: "Timestamp dan Cron",
     description: "Unix ke WIB WITA WIT dan cron explainer Bahasa Indonesia.",
-    url: "https://gsg.id/dev/timestamp-cron",
+    url: "https://gsgid.vercel.app/dev/timestamp-cron",
   },
 });
 

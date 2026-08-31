@@ -11,7 +11,7 @@ export const metadata: Metadata = buildMetadata({
   openGraph: {
     title: "Hash Generator",
     description: "Hash generator MD5 SHA256 via Web Crypto.",
-    url: "https://gsg.id/dev/hash-generator",
+    url: "https://gsgid.vercel.app/dev/hash-generator",
   },
 });
 

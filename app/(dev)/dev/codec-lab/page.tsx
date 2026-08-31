@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
   openGraph: {
     title: "Codec Lab",
     description: "Base64, Base64URL, URL, HTML Entity encode decode.",
-    url: "https://gsg.id/dev/codec-lab",
+    url: "https://gsgid.vercel.app/dev/codec-lab",
   },
 });
 

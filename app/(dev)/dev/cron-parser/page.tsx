@@ -11,7 +11,7 @@ export const metadata: Metadata = buildMetadata({
   openGraph: {
     title: "Cron Parser",
     description: "Cron explainer Bahasa Indonesia dan next run.",
-    url: "https://gsg.id/dev/cron-parser",
+    url: "https://gsgid.vercel.app/dev/cron-parser",
   },
 });
 

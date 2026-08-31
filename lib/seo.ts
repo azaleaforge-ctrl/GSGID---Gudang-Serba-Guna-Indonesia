@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 export const siteConfig = {
   name: "GUDANG SERBA GUNA ID",
   shortName: "GSG ID",
-  domain: "gsg.id",
-  url: "https://gsg.id",
+  domain: "gsgid.vercel.app",
+  url: "https://gsgid.vercel.app",
   title: "GUDANG SERBA GUNA ID: Tools Gratis UMKM dan Karir",
   description:
     "Gudang tools gratis untuk UMKM dan pejuang karir Indonesia. Hitung HPP, buat invoice, generate CV ATS, cek gaji, dan puluhan tools lain, tanpa login, tanpa paywall.",
@@ -28,7 +28,7 @@ export const siteConfig = {
     "hash generator",
     "base64 tool",
   ],
-  ogImage: "https://gsg.id/opengraph-image",
+  ogImage: "https://gsgid.vercel.app/opengraph-image",
   ogImageAlt: "GUDANG SERBA GUNA ID: Tools Gratis untuk UMKM dan Karir",
   twitterHandle: "@gsg_id",
 };

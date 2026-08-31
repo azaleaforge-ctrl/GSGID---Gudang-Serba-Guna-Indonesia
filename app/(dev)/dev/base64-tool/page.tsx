@@ -11,7 +11,7 @@ export const metadata: Metadata = buildMetadata({
   openGraph: {
     title: "Base64 Tool",
     description: "Base64 encode decode teks dan file.",
-    url: "https://gsg.id/dev/base64-tool",
+    url: "https://gsgid.vercel.app/dev/base64-tool",
   },
 });
 

@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
   openGraph: {
     title: "JWT Decoder",
     description: "Decode JWT, cek exp, iat, alg tanpa kirim data.",
-    url: "https://gsg.id/dev/jwt-decoder",
+    url: "https://gsgid.vercel.app/dev/jwt-decoder",
   },
 });
 

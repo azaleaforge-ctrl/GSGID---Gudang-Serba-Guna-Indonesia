@@ -11,7 +11,7 @@ export const metadata: Metadata = buildMetadata({
   openGraph: {
     title: "JWT Debugger",
     description: "Decode JWT header payload dan cek exp.",
-    url: "https://gsg.id/dev/jwt-debugger",
+    url: "https://gsgid.vercel.app/dev/jwt-debugger",
   },
 });
 

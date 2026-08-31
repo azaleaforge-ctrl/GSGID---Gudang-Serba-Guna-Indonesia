@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
   openGraph: {
     title: "JSON Formatter + Viewer",
     description: "Prettify, minify, validate JSON dengan pointer line.",
-    url: "https://gsg.id/dev/json-formatter",
+    url: "https://gsgid.vercel.app/dev/json-formatter",
   },
 });
 

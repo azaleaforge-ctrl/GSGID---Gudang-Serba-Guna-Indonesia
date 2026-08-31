@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
   openGraph: {
     title: "ID Generator",
     description: "UUID v4, hash, password generator dengan Web Crypto.",
-    url: "https://gsg.id/dev/id-generator",
+    url: "https://gsgid.vercel.app/dev/id-generator",
   },
 });
 

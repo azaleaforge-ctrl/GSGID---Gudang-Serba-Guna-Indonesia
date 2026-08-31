@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
   openGraph: {
     title: "Regex Tester",
     description: "Live regex highlight, match groups, replace preview.",
-    url: "https://gsg.id/dev/regex-tester",
+    url: "https://gsgid.vercel.app/dev/regex-tester",
   },
 });
 
