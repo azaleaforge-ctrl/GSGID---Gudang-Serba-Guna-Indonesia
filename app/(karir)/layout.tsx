@@ -20,7 +20,16 @@ export const metadata: Metadata = buildMetadata({
     siteName: siteConfig.name,
     locale: "id_ID",
     type: "website",
-    images: [{ url: `${siteConfig.url}/opengraph-image`, width: 1200, height: 630, alt: "Lorong Karir, GSG ID", type: "image/png" }],
+    images: [
+      { url: `${siteConfig.url}/karir/opengraph-image`, width: 1200, height: 630, alt: "Lorong Karir, GSG ID", type: "image/png" },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lorong Karir, Tools Gratis Pejuang Karir",
+    description:
+      "CV ATS searchable, surat lamaran EYD PUEBI, resign, paklaring, perjanjian kerja & pernyataan. Export PDF A4 presisi.",
+    images: [`${siteConfig.url}/karir/opengraph-image`],
   },
 });
 

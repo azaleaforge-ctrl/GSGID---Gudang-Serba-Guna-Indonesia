@@ -20,7 +20,16 @@ export const metadata: Metadata = buildMetadata({
     siteName: siteConfig.name,
     locale: "id_ID",
     type: "website",
-    images: [{ url: `${siteConfig.url}/opengraph-image`, width: 1200, height: 630, alt: "Lorong UMKM, GSG ID", type: "image/png" }],
+    images: [
+      { url: `${siteConfig.url}/umkm/opengraph-image`, width: 1200, height: 630, alt: "Lorong UMKM, GSG ID", type: "image/png" },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lorong UMKM, Tools Gratis untuk yang Jualan",
+    description:
+      "Hitung HPP, BEP, cicilan & diskon akurat. Buat invoice & kwitansi PDF 1:1 preview. Gratis, offline, data di device.",
+    images: [`${siteConfig.url}/umkm/opengraph-image`],
   },
 });
 

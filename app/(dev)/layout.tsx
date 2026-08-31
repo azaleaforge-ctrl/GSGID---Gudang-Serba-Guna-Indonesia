@@ -19,7 +19,15 @@ export const metadata: Metadata = buildMetadata({
     siteName: siteConfig.name,
     locale: "id_ID",
     type: "website",
-    images: [{ url: `${siteConfig.url}/opengraph-image`, width: 1200, height: 630, alt: "Lorong DEV, GSG ID", type: "image/png" }],
+    images: [
+      { url: `${siteConfig.url}/dev/opengraph-image`, width: 1200, height: 630, alt: "Lorong DEV, GSG ID", type: "image/png" },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lorong DEV, Tools Gratis Developer",
+    description: "JSON, JWT, hash, base64, regex, cron. Terminal 1:1 preview, gratis, offline.",
+    images: [`${siteConfig.url}/dev/opengraph-image`],
   },
 });
 
