@@ -186,7 +186,7 @@ export default function DevHubPage() {
             </p>
           </div>
           <div className="shrink-0 rounded-full bg-[#22C55E] px-5 py-2.5 text-sm font-mono font-bold text-[#0A0A0A]">
-            Lorong DEV, gsg.id/dev
+            Lorong DEV, gsgid.vercel.app/dev
           </div>
         </div>
       </section>

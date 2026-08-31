@@ -193,7 +193,7 @@ export default function UmkmHubPage() {
             </p>
           </div>
           <div className="shrink-0 rounded-full bg-white px-5 py-2.5 text-sm font-bold text-[#1C1917] opacity-90">
-            Lorong UMKM, gsg.id/umkm
+            Lorong UMKM, gsgid.vercel.app/umkm
           </div>
         </div>
       </section>

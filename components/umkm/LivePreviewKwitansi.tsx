@@ -68,7 +68,7 @@ export function LivePreviewKwitansi({ data }: { data: KwitansiData }) {
           </div>
 
           <p className="mt-6 text-center font-mono text-[9px] tracking-wide text-[#A8A29E]">
-            GSG ID · Lorong UMKM · gsg.id/umkm, {fmtIDR(data.nominal)}
+            GSG ID · Lorong UMKM · gsgid.vercel.app/umkm, {fmtIDR(data.nominal)}
           </p>
         </div>
       </div>

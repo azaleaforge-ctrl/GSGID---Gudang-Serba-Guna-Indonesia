@@ -138,7 +138,7 @@ export function Hero() {
               </div>
               <div className="flex items-center justify-between border-t border-[var(--lobby-border)] bg-[#FDFCF8] px-4 py-3">
                 <span className="font-mono text-[10px] tracking-[0.14em] text-[#78716C]">
-                  GSG.ID / LOBBY
+                  gsgid.vercel.app / LOBBY
                 </span>
                 <span className="font-mono text-[10px] tracking-[0.14em]">30+ TOOLS</span>
               </div>

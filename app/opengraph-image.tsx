@@ -30,7 +30,7 @@ export default async function Image() {
           paddingBottom: 16,
         }}
       >
-        <span>GSG.ID, 1 DOMAIN · 2 LORONG · 30+ TOOLS</span>
+        <span>gsgid.vercel.app, 1 DOMAIN · 2 LORONG · 30+ TOOLS</span>
         <span>TANPA LOGIN · GRATIS</span>
       </div>
 
@@ -170,7 +170,7 @@ export default async function Image() {
         }}
       >
         <span>© 2026 GUDANG SERBA GUNA ID</span>
-        <span>gsg.id, gratis selamanya</span>
+        <span>gsgid.vercel.app, gratis selamanya</span>
       </div>
     </div>,
     { ...size }

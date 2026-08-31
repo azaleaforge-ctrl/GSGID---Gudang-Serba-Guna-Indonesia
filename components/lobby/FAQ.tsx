@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: "Perlu daftar / login?",
-    a: "Tidak. Buka gsg.id, pilih lorong, langsung pakai. Tanpa email, tanpa password. Kalau mau simpan draft, cukup klik simpan, tetap tanpa akun.",
+    a: "Tidak. Buka gsgid.vercel.app, pilih lorong, langsung pakai. Tanpa email, tanpa password. Kalau mau simpan draft, cukup klik simpan, tetap tanpa akun.",
   },
   {
     q: "Bisa dipakai di HP?",

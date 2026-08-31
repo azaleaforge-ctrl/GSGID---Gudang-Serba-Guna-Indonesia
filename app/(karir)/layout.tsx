@@ -80,7 +80,7 @@ export default function KarirLayout({ children }: { children: React.ReactNode })
       <footer className="border-t border-[#E2E8F0] bg-[#0F172A] text-white py-6">
         <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="font-mono text-[11px] tracking-[0.14em] opacity-60">
-            © 2026 GSG ID, LORONG KARIR, gsg.id/karir
+            © 2026 GSG ID, LORONG KARIR, gsgid.vercel.app/karir
           </p>
           <div className="flex items-center gap-3">
             <DonateButton variant="footer" />

@@ -106,7 +106,7 @@ export function Features() {
               pekerjaan dengan benar. Bukan super-app, bukan AI yang mengarang.
             </p>
             <p className="mt-3 font-mono text-[11px] tracking-[0.1em] text-white/60">
-              gsg.id, 1 domain, 2 lorong, puluhan tools
+              gsgid.vercel.app, 1 domain, 2 lorong, puluhan tools
             </p>
           </div>
         </div>

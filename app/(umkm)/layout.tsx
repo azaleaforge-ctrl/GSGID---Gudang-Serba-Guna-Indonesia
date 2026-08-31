@@ -83,7 +83,7 @@ export default function UmkmLayout({ children }: { children: React.ReactNode }) 
       <footer className="border-t-2 border-[#1C1917] bg-[#1C1917] text-[#FFFBEB] py-6">
         <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="font-mono text-[11px] tracking-[0.14em] opacity-70">
-            © 2026 GSG ID, LORONG UMKM, gsg.id/umkm
+            © 2026 GSG ID, LORONG UMKM, gsgid.vercel.app/umkm
           </p>
           <div className="flex items-center gap-3">
             <DonateButton variant="footer" />

@@ -117,7 +117,7 @@ export default function HppClient() {
     y += 4;
     doc.setFontSize(6);
     doc.setTextColor(120, 113, 108);
-    doc.text("gsg.id/umkm/kalkulator-hpp, Hitung HPP biar tidak tekor. Gratis.", 14, 290);
+    doc.text("gsgid.vercel.app/umkm/kalkulator-hpp, Hitung HPP biar tidak tekor. Gratis.", 14, 290);
     doc.save(`hpp-${nama.replace(/\s+/g, "-").toLowerCase()}.pdf`);
   };
 

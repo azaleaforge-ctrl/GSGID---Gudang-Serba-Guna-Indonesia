@@ -140,7 +140,7 @@ export default function DiskonClient() {
       14,
       y
     );
-    doc.text("gsg.id/umkm/kalkulator-diskon", 14, 290);
+    doc.text("gsgid.vercel.app/umkm/kalkulator-diskon", 14, 290);
     doc.save("diskon-gsg.pdf");
   };
 

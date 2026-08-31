@@ -104,7 +104,7 @@ export default function CicilanClient() {
     });
     doc.setFontSize(6);
     doc.setTextColor(120, 113, 108);
-    doc.text(`gsg.id/umkm/kalkulator-cicilan, OJK akurat. Flat vs Efektif.`, 14, 290);
+    doc.text(`gsgid.vercel.app/umkm/kalkulator-cicilan, OJK akurat. Flat vs Efektif.`, 14, 290);
     doc.save(`cicilan-${tipe}-${tenor}bln.pdf`);
   };
 

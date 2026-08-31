@@ -85,7 +85,7 @@ export default function DevLayout({ children }: { children: React.ReactNode }) {
       <footer className="border-t border-[#1F2937] bg-[#0A0A0A] py-6">
         <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="font-mono text-[11px] tracking-[0.14em] text-[#6B7280]">
-            © 2026 GSG ID, LORONG DEV, gsg.id/dev
+            © 2026 GSG ID, LORONG DEV, gsgid.vercel.app/dev
           </p>
           <div className="flex items-center gap-3">
             <DonateButton variant="footer" />

@@ -197,7 +197,7 @@ export default function KarirHubPage() {
             </p>
           </div>
           <div className="shrink-0 rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-[#0F172A] opacity-90">
-            Lorong Karir, gsg.id/karir
+            Lorong Karir, gsgid.vercel.app/karir
           </div>
         </div>
       </section>

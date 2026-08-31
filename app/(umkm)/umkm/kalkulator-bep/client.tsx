@@ -75,7 +75,7 @@ export default function BepClient() {
     y += 14;
     doc.setFontSize(6);
     doc.setTextColor(120, 113, 108);
-    doc.text("gsg.id/umkm/kalkulator-bep, tahu titik impas, bukan tebak.", 14, 290);
+    doc.text("gsgid.vercel.app/umkm/kalkulator-bep, tahu titik impas, bukan tebak.", 14, 290);
     doc.save("bep-gsg.pdf");
   };
 

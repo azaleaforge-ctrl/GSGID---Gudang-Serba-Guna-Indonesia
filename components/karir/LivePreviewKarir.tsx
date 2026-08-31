@@ -142,7 +142,7 @@ export function LivePreviewLamaran({ data }: { data: SuratLamaranData }) {
         <p className="font-bold tracking-tight uppercase text-[11px]">
           {data.nama || "NAMA PELAMAR"}
         </p>
-        <p className="font-mono text-[9px] text-[#64748B] shrink-0">GSG.ID/KARIR</p>
+        <p className="font-mono text-[9px] text-[#64748B] shrink-0">gsgid.vercel.app/KARIR</p>
       </div>
       <p className="font-mono text-[9px] text-[#64748B] leading-4">
         {[data.alamat, data.telp, data.email].filter(Boolean).join(" · ") || "-"}

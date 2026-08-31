@@ -185,7 +185,7 @@ export function exportCVPDF(data: CVData) {
   doc.setFontSize(5.5);
   doc.setTextColor(148, 163, 184);
   doc.text(
-    "Dibuat via GSG ID — Lorong Karir · gsg.id/karir — ATS-friendly, 1 halaman bila memungkinkan.",
+    "Dibuat via GSG ID — Lorong Karir · gsgid.vercel.app/karir — ATS-friendly, 1 halaman bila memungkinkan.",
     ML,
     H - 8
   );
@@ -324,7 +324,7 @@ export function exportSuratLamaranPDF(d: SuratLamaranData) {
 
   // footer
   doc.setFontSize(5.5);
-  doc.text("GSG ID · Lorong Karir — EYD PUEBI · gsg.id/karir", ML, 287);
+  doc.text("GSG ID · Lorong Karir — EYD PUEBI · gsgid.vercel.app/karir", ML, 287);
 
   doc.save(`Surat-Lamaran-${sanitizeFilename(d.nama || "pelamar")}.pdf`);
 }
@@ -560,7 +560,7 @@ export function exportPaklaringPDF(d: PaklaringData) {
 
   doc.setFontSize(5.5);
   doc.setTextColor(148, 163, 184);
-  doc.text("GSG ID · Lorong Karir — Paklaring · gsg.id/karir", ML, 287);
+  doc.text("GSG ID · Lorong Karir — Paklaring · gsgid.vercel.app/karir", ML, 287);
   doc.save(`Paklaring-${sanitizeFilename(d.nama || "karyawan")}.pdf`);
 }
 
@@ -759,7 +759,7 @@ export function exportPerjanjianPDF(d: PerjanjianData) {
   doc.setFont("helvetica", "normal");
   doc.setFontSize(5.5);
   doc.setTextColor(148, 163, 184);
-  doc.text("GSG ID · Perjanjian Kerja Sederhana — 2 halaman bila perlu · gsg.id/karir", ML, 287);
+  doc.text("GSG ID · Perjanjian Kerja Sederhana — 2 halaman bila perlu · gsgid.vercel.app/karir", ML, 287);
   doc.save(`Perjanjian-Kerja-${sanitizeFilename(d.pihak2Nama || "karyawan")}.pdf`);
 }
 
@@ -883,7 +883,7 @@ export function exportPernyataanPDF(d: PernyataanData) {
   doc.setTextColor(100, 116, 139);
   doc.text(d.nik ? `NIK: ${d.nik}` : "", W - MR, y, { align: "right" });
   doc.setFontSize(5.5);
-  doc.text("GSG ID · Lorong Karir — Surat Pernyataan (5 template) · gsg.id/karir", ML, 287);
+  doc.text("GSG ID · Lorong Karir — Surat Pernyataan (5 template) · gsgid.vercel.app/karir", ML, 287);
   const titleMap: Record<string, string> = {
     umum: "Pernyataan",
     izin: "Izin",

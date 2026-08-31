@@ -28,7 +28,7 @@ export const metadata: Metadata = buildMetadata({
     card: "summary_large_image",
     title: "GSG ID : Gudang Serba Guna: Tools UMKM, Karir & Developer Gratis",
     description:
-      "30+ tools gratis UMKM, Karir & Developer. Tanpa login, gratis selamanya di gsg.id.",
+      "30+ tools gratis UMKM, Karir & Developer. Tanpa login, gratis selamanya di gsgid.vercel.app.",
     images: [`${siteConfig.url}/opengraph-image`],
   },
 });

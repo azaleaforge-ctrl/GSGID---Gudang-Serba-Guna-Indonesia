@@ -185,7 +185,7 @@ export function exportInvoicePDF(data: InvoiceData) {
   doc.text(data.logoText || "GSG ID — INVOICE", 14, 11);
   doc.setFontSize(7);
   doc.setFont("helvetica", "normal");
-  doc.text("Lorong UMKM · gsg.id/umkm", W - 14, 11, { align: "right" });
+  doc.text("Lorong UMKM · gsgid.vercel.app/umkm", W - 14, 11, { align: "right" });
 
   // from/to & meta
   let y = 26;
@@ -321,7 +321,7 @@ export function exportInvoicePDF(data: InvoiceData) {
   doc.setFontSize(6);
   doc.setTextColor(120, 113, 108);
   doc.text(
-    "Dibuat via GSG ID — Lorong UMKM · gsg.id/umkm — Gratis, tanpa login, data di device.",
+    "Dibuat via GSG ID — Lorong UMKM · gsgid.vercel.app/umkm — Gratis, tanpa login, data di device.",
     14,
     290
   );
@@ -416,7 +416,7 @@ export function exportKwitansiPDF(data: KwitansiData) {
 
   // footer tiny
   doc.setFontSize(5);
-  doc.text("GSG ID · Lorong UMKM · gsg.id/umkm", 10, H - 7);
+  doc.text("GSG ID · Lorong UMKM · gsgid.vercel.app/umkm", 10, H - 7);
   doc.text(
     `Nominal: ${fmtIDR(data.nominal)} · Dicetak ${new Date().toLocaleDateString("id-ID")}`,
     W - 10,

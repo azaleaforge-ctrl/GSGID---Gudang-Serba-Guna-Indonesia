@@ -90,7 +90,7 @@ export function LivePreviewInvoice({ data }: { data: InvoiceData }) {
           {data.logoText || "GSG ID, INVOICE"}
         </span>
         <span className="font-mono text-[10px] tracking-widest opacity-70">
-          Lorong UMKM · gsg.id/umkm
+          Lorong UMKM · gsgid.vercel.app/umkm
         </span>
       </div>
 
@@ -194,7 +194,7 @@ export function LivePreviewInvoice({ data }: { data: InvoiceData }) {
         )}
 
         <p className="mt-6 font-mono text-[9px] tracking-wide text-[#A8A29E] text-center">
-          Dibuat via GSG ID, Lorong UMKM · gsg.id/umkm
+          Dibuat via GSG ID, Lorong UMKM · gsgid.vercel.app/umkm
         </p>
       </div>
     </div>
