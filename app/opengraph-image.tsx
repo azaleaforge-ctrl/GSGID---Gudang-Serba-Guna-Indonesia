@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 
-export const runtime = "edge";
+// Next 16: edge runtime deprecated — default (nodejs) statically optimizes this route
+// honey: keeps opengraph-image cacheable; revalidate if branding changes
 export const alt = "GUDANG SERBA GUNA ID, Tools Gratis UMKM & Karir";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
@@ -45,14 +46,12 @@ export default async function Image() {
               GSG
             </span>
             <span
-              style={
-                {
-                  fontSize: 56,
-                  fontWeight: 900,
-                  color: "transparent",
-                  WebkitTextStroke: "1.6px #0A0A0A",
-                } as unknown as Record<string, string>
-              }
+              style={{
+                fontSize: 56,
+                fontWeight: 900,
+                color: "#0A0A0A",
+                opacity: 0.12,
+              }}
             >
               ID
             </span>
@@ -62,17 +61,34 @@ export default async function Image() {
           </div>
           <div
             style={{
-              fontSize: 52,
-              fontWeight: 900,
-              lineHeight: 0.9,
-              letterSpacing: "-0.05em",
-              color: "#0A0A0A",
+              display: "flex",
+              flexDirection: "column",
               marginTop: 12,
             }}
           >
-            Gudang serba guna
-            <br />
-            <span style={{ fontWeight: 300, fontStyle: "italic" }}>untuk kerja nyata.</span>
+            <div
+              style={{
+                fontSize: 52,
+                fontWeight: 900,
+                lineHeight: 0.9,
+                letterSpacing: "-0.05em",
+                color: "#0A0A0A",
+              }}
+            >
+              Gudang serba guna
+            </div>
+            <div
+              style={{
+                fontSize: 52,
+                fontWeight: 300,
+                fontStyle: "italic",
+                lineHeight: 0.9,
+                letterSpacing: "-0.05em",
+                color: "#0A0A0A",
+              }}
+            >
+              untuk kerja nyata.
+            </div>
           </div>
           <div
             style={{
@@ -123,6 +139,8 @@ export default async function Image() {
               borderRadius: 20,
               padding: 20,
               flex: 1,
+              display: "flex",
+              flexDirection: "column",
             }}
           >
             <div style={{ fontSize: 10, letterSpacing: "0.18em", color: "#EA580C" }}>
@@ -142,6 +160,8 @@ export default async function Image() {
               padding: 20,
               flex: 1,
               color: "white",
+              display: "flex",
+              flexDirection: "column",
             }}
           >
             <div style={{ fontSize: 10, letterSpacing: "0.18em", color: "#60A5FA" }}>
