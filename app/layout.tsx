@@ -4,6 +4,7 @@ import "./globals.css";
 import { buildMetadata } from "@/lib/seo";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/jsonld";
 import { LenisProvider } from "@/components/ui/LenisProvider";
+import { FloatingRequestBar } from "@/components/shared/FloatingRequestBar";
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -50,6 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteLd) }}
         />
         <LenisProvider>{children}</LenisProvider>
+        <FloatingRequestBar />
       </body>
     </html>
   );

@@ -9,8 +9,6 @@ import { Features } from "@/components/lobby/Features";
 import { FAQ } from "@/components/lobby/FAQ";
 import { CTA } from "@/components/lobby/CTA";
 import { Footer } from "@/components/lobby/Footer";
-import { DonateButton } from "@/components/shared/DonateButton";
-
 export default function LobbyPage() {
   const { isMobile } = useIsMobile();
 
@@ -27,9 +25,6 @@ export default function LobbyPage() {
         <CTA />
       </main>
       <Footer />
-
-      {/* Floating donate - desktop only per spec, mobile uses header */}
-      {!isMobile && <DonateButton variant="floating" />}
 
       {/* Bottom nav - mobile distinct UI */}
       {isMobile && <BottomNav />}
